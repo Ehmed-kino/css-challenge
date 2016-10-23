@@ -1,1 +1,189 @@
 /*Add your styles below*/
+/*@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');*/
+/*font-family: 'Cutive Mono', monospace;*/
+/*@import url('https://fonts.googleapis.com/css?family=Audiowide');*/
+/*font-family: 'Audiowide', cursive;*/
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+/*font-family: 'Press Start 2P', cursive;*/
+@import url('https://fonts.googleapis.com/css?family=VT323');
+/*font-family: 'VT323', monospace;*/
+/*@import url('https://fonts.googleapis.com/css?family=Faster+One');*/
+/*font-family: 'Faster One', cursive;*/
+@import url('https://fonts.googleapis.com/css?family=Chango');
+    /*font-family: 'Chango', cursive;*/
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+/*font-family: 'Inconsolata', monospace;*/
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+    /*font-family: 'Raleway', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Chewy');
+/*font-family: 'Chewy', cursive;*/
+#css-zen-garden {
+  background-image: url(background1.png);
+  background-size:fill;
+  /*background-repeat: no-repeat;*/
+  background-attachment:fixed;
+  font-family: 'VT323', monospace;
+  font-size:100%;
+  color:white;
+}
+.page-wrapper {
+  width:100%;
+  overflow: hidden;
+}
+a {
+  box-shadow: 7px 7px 50px  black;
+   color:green;
+   font-size:30px;
+   font-family: 'Raleway', sans-serif;
+   background-color: black;
+}
+a:hover {
+  opacity: .5;
+  transition-duration: 1s;
+}
+
+header {
+  width:100%;
+  height:350px;
+  font-size:70%;
+  display: inline-block;
+  background-image: url(GIF/backgroundmove.gif);
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color:#2C2D2D;
+  opacity:.8;
+  text-align: center;
+ }
+header h1 {
+  width:1380px;
+  font-family: 'Chango', cursive;
+  background-color: #903D45;
+  font-size:400%;
+  display: block;
+ }
+h2 abbr {
+  font-size: 200%;
+  color:#D44051;
+ }
+
+div.summary {
+  margin:30px auto;
+  padding:1%;
+  padding-left:110px;
+  height:220px;
+  width:60%;
+  background-color:black;
+  font-size: 20px;
+  font-family: 'Inconsolata', monospace;
+  background-image: url(GIF/bat.gif);
+  background-size:200px;
+  background-position:right;
+  background-repeat: no-repeat;
+}
+div.summary:hover {
+  opacity:.8;
+  margin-left: 16%;
+  text-align: left;
+  width:76%;
+  /*font-size: 20px;*/
+  /*text-align: center;*/
+  transition-duration: 1s;
+}
+
+div.preamble {
+  height:1200px;
+  width:300px;
+  font-family: 'Inconsolata', monospace;
+  font-size:30px;
+  padding: 500px 10px 0px 10px;
+  position:absolute;
+  top:200px;
+  opacity:.9;
+  background-color: #5FB2C9;
+  background-image:url(GIF/backgroundmove1.gif);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.supporting {
+  width: 100%;
+  position: relative;
+  bottom:80px;
+  margin-left:320px;
+  /*background-color:green;*/
+}
+.explanation {
+  padding:10px;
+  width:1000px;
+  height:350px;
+  background-image: url(GIF/tumblr500.gif);
+  background-repeat: no-repeat;
+  background-position: 840px  bottom;
+  background-size: 160px;
+  transition-duration: 5s;
+}
+.explanation:hover {
+  background-color: black;
+  background-position: 0px bottom;
+  transition-duration: 5s;
+  color:red;
+
+}
+.zen-resources {
+
+  height: 80px;
+background-color: red;
+}
+
+.zen-resources li {
+    margin: auto;
+  list-style-type: none;
+  float:left;
+  margin:0 10px;
+}
+.zen-resources li a {
+  font-family: monospace;
+  font-size: 20px;
+}
+div .design-selection {
+  width:80%;
+  color:#FF9900;
+  position: relative;
+  left:320px;
+  bottom:100px;
+  font-size: 50px;
+  background-color: black;
+  background-image: url(background6.png);
+  background-position: top;
+  background-repeat:no-repeat;
+  background-size: 1000px;
+}
+/* the class below is a link */
+.design-name  {
+  font-family: 'Chewy', cursive;
+  color:white;
+  background-color: transparent;
+  text-decoration: none;
+}
+.designer-name {
+  font-family: 'Chewy', cursive;
+  color:white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.design-archives {
+  background-color: gray;
+}
+div.design-selection ul {
+  list-style-type:none;
+}
+div.design-selection ul li {
+  margin: 10px;
+}
+
+footer  {
+  position: relative;
+  text-align: center;
+}
